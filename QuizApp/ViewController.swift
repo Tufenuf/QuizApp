@@ -3,6 +3,7 @@
 //  QuizApp
 //
 //  Created by Logan Mayo on 1/27/19.
+//  High Point University
 //  Copyright © 2019 Logan Mayo. All rights reserved.
 //
 
@@ -15,12 +16,25 @@ class ViewController: UIViewController {
     let questions: [String] = [
         "What is 7+7?",
         "What is the capital of Vermont?",
-        "What is cognac made from?"
+        "What is cognac made from?",
+        "What is the capital of North Carolina",
+        "What year was High Point University founded",
+        "What is the coldest recorded temperature in High Point",
+        "What is the hottest recorded temperature in High Point",
+        "What is the furniture capital of the world"
+        
     ]
     let answers: [String] = [
         "14",
         "Montpelier",
-        "Grapes"
+        "Grapes",
+        "Raleigh",
+        "1924",
+        "-34 F",
+        "102.9 F",
+        "High Point, NC"
+        
+        
     ]
     var currentQuestionIndex: Int = 0
     
