@@ -20,7 +20,8 @@ class ViewController: UIViewController {
     let answers: [String] = [
         "14",
         "Montpelier",
-        "Grapes" ]
+        "Grapes"
+    ]
     var currentQuestionIndex: Int = 0
     
     @IBAction func showNextQuestion(_ sender: UIButton) {
