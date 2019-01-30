@@ -18,15 +18,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="High Point University" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BM3-U8-Nw3">
-                                <rect key="frame" x="107" y="287" width="160" height="93"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Point University" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BM3-U8-Nw3">
+                                <rect key="frame" x="107" y="322" width="160" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Logan Mayo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywd-dI-IhI">
-                                <rect key="frame" x="141" y="359" width="93" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Logan Mayo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywd-dI-IhI">
+                                <rect key="frame" x="141" y="353" width="93" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -34,8 +33,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="BM3-U8-Nw3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ggt-h6-99u"/>
-                            <constraint firstItem="BM3-U8-Nw3" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="yNb-Yz-fQX"/>
+                            <constraint firstItem="BM3-U8-Nw3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="99I-AT-G3u"/>
+                            <constraint firstItem="ywd-dI-IhI" firstAttribute="top" secondItem="BM3-U8-Nw3" secondAttribute="bottom" constant="8" symbolic="YES" id="JVn-Pc-1TB"/>
+                            <constraint firstItem="BM3-U8-Nw3" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="KVH-1T-HbQ"/>
+                            <constraint firstItem="BM3-U8-Nw3" firstAttribute="centerX" secondItem="ywd-dI-IhI" secondAttribute="centerX" id="aol-eb-1XS"/>
+                            <constraint firstItem="BM3-U8-Nw3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="302" id="uaZ-jg-DyT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
